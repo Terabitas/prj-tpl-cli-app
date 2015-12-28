@@ -1,0 +1,8 @@
+#!/bin/bash -e
+
+ORG_PATH="{{.OrgPath}}"
+REPO_PATH="${ORG_PATH}/{{.ProjectName}}"
+
+echo "Building {{.BinaryName}}"
+CGO_ENABLED=0 godep go build -o bin/{{.BinaryName}} -a -installsuffix netgo -ldflags '-s'
+chmod +x bin/{{.BinaryName}}

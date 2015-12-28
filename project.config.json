@@ -1,0 +1,9 @@
+{
+  "GitRepoFullPath": "https://github.com/your_org/your_project_name",
+  "DocsGitRepoFullPath": "https://github.com/your_org/docs",
+  "OrgPath":"github.com/your_org",
+  "BinaryName" : "your_project_binary_name",
+  "ProjectName" : "your_project_name",
+  "BinaryDescription" : "Some description of your app",
+  "Org": "your_org"
+}
